@@ -18,6 +18,7 @@ namespace Blazorcrud.Server.Controllers
         }
 
         /// <summary>
+        /// Returns a list of paginated uploads with a default page size of 5.
         /// </summary>
         [AllowAnonymous]
         [HttpGet]
